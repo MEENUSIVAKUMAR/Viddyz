@@ -1,0 +1,17 @@
+import random
+
+def toss_coin():
+    # Generate a random number (0 or 1) to represent heads or tails
+    result = random.randint(0, 1)
+    
+    # Map the result to 'Heads' or 'Tails'
+    if result == 0:
+        return 'Heads'
+    else:
+        return 'Tails'
+
+# Perform a coin toss
+result = toss_coin()
+
+# Display the result
+print(f"The coin landed on: {result}")
